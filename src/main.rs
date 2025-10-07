@@ -10,7 +10,7 @@ use crate::cli::commands::{Cli, Commands};
 use crate::runtime::container::ContainerConfig;
 use crate::runtime::main::Runtime;
 use crate::storage::storage::{
-    add_container, delete_container, get_container, get_container_ids, init,
+    add_container, get_container, get_container_ids, init,
 };
 use anyhow::anyhow;
 use chrono::{DateTime, Datelike, Local};

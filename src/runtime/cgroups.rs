@@ -3,7 +3,7 @@ use anyhow::{Result, anyhow};
 use nix::sys::statfs::{CGROUP_SUPER_MAGIC, CGROUP2_SUPER_MAGIC, statfs};
 use std::fs::{self, File, create_dir_all};
 use std::io::Write;
-use std::path::{Path, PathBuf};
+use std::path::PathBuf;
 
 use crate::PROGRAM_NAME;
 

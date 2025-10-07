@@ -9,7 +9,7 @@ use anyhow::{Result, anyhow};
 use nix::mount::{MsFlags, mount};
 use nix::sys::signal::Signal::SIGTERM;
 use nix::sys::signal::kill;
-use nix::unistd::{ForkResult, Pid, chdir, execve, fork};
+use nix::unistd::{ForkResult, Pid, chdir, fork};
 use std::ffi::CString;
 use std::fs::create_dir_all;
 use std::path::Path;

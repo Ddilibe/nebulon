@@ -7,7 +7,7 @@ use std::{
     path::{Path, PathBuf},
 };
 
-use anyhow::{Result, anyhow};
+use anyhow::Result;
 use chrono::{DateTime, Utc};
 use copy_dir::copy_dir;
 use serde::{Deserialize, Serialize};
@@ -187,7 +187,7 @@ impl ImageManager {
     }
 
     fn calculate_directory_size(path: &Path) -> Result<u64> {
-        let mut total_size = 0;
+        let total_size = 0;
 
         Ok(total_size)
     }

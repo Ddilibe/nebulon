@@ -1,6 +1,6 @@
 // src/storage/snapshot.rs
 
-use anyhow::{Result, anyhow};
+use anyhow::Result;
 use copy_dir::copy_dir;
 use std::{
     collections::HashMap,
